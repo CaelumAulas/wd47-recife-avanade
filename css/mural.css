@@ -1,0 +1,30 @@
+.mural {
+	font-size: 1.2rem;
+}
+
+@media (min-width: 560px){
+	.mural {
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+
+	.mural--linha {
+		flex-direction: column;
+	}
+
+	.mural--linha .cartao {
+		flex-basis: auto;
+		width: auto;
+		display: block; /* Progressive Enhancement */
+ 	}
+}
+
+@media (min-width: 900px){
+	.mural {
+		align-items: center;
+		font-size: 1.3rem;
+	}
+}
