@@ -64,3 +64,62 @@ for(arrayComAsFuncoesDoClickDoBotao) {
 # Capitulo 11 - Progressive Enhancement
 - Cria o seletor `.no-js``
 - Adiciona a classe no-js nos elementos com possível funcionalidade (btnLinhas, btnSync, Busca, Form Novo Cartao)
+
+# Capitulo 12 - Removendo cartões com emoção :)
+- opacidade pra fazer animação;
+- adicionar essa classe css: cartao--some
+- usar função "anemona"
+
+# Capitulo 13 (pag 85) - Exterminando todos os cartões
+- Usando querySelectorAll;
+- Let do poder;
+- 
+
+# Capitulo 14 - Focando nos cartões em qualquer lugar
+- CSS
+- Hover
+- display: none;
+- focusin e focusout no addEventListener adicionando classe css :)
+- Estudarem mais CSS do BEM: http://getbem.com/introduction/
+- https://mariosouto.com/
+
+# Capitulo 15 - Trocando as cores loucamente
+- Usuario clica na bolinha
+- Dev:
+    - Adicionar um evento: click na bolinha ou no cartao?
+    - Fazer um if pra ver qual cor
+    - Pegar a cor da bolinha e aplica no cartão
+    - Usar o delegate, fazendo o cartão mandar o filho executar o evento
+
+# Capitulo 16 - Delegate para ajustar a navegação de teclado
+- Cadastrar um evento no no cartão: keyup, keydown, sendkey, keypress, input
+- Faz uma condicional para ver se estamos focados nas bolinhas
+- Identificar enter ou espaço
+- Forçar o click na label
+- Testem o parâmetro `event` do evento de keyup e dos outros: `keyup, keydown, sendkey, keypress, input`
+- Brinquem no http://keycode.info/
+## Desafio
+- Tenta fazer algum atalho de teclado; (faz aparecer um alert ou algo do genero)
+- Descobre a diferença de == para ===
+    - Verfica o tipo e o valor: ===
+    - Verifica só o valor: ==
+
+# Capitulo 17 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

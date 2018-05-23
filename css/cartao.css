@@ -12,14 +12,16 @@
 }
 
 .cartao--some {
-	opacity: 0;
-	transition: 0.5s;
+    opacity: 0;
+	transition: 1s;
+	position: relative;
+    transform: scale(0) rotate(360deg);
 }
 
 .cartao.cartao--focado,
 .cartao:hover,
 .cartao:focus {
-	transform: scale(1.1);
+	/* transform: scale(1.1); */
 	z-index: 2;
 }
 
@@ -86,3 +88,17 @@
     }
 
 }
+
+/* Códigos Novos *//* bem */
+
+.cartao:focus-within .opcoesDoCartao,
+.cartao--focus-within .opcoesDoCartao,
+.cartao:hover .opcoesDoCartao {
+	/* display: block; */
+	pointer-events: auto;
+	opacity: 1;
+}
+
+
+
+

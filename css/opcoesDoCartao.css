@@ -7,6 +7,13 @@
 	white-space: nowrap;
 }
 
+.opcoesDoCartao {
+	/* display: none; */
+	transition: .5s;
+	pointer-events: none;
+	opacity: 0; 
+}
+
 .opcoesDoCartao-opcao {
 	display: inline-block;
 	vertical-align: middle;
