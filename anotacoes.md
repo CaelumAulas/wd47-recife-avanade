@@ -104,10 +104,31 @@ for(arrayComAsFuncoesDoClickDoBotao) {
     - Verfica o tipo e o valor: ===
     - Verifica só o valor: ==
 
-# Capitulo 17 - 
+# Capitulo 17 - Desafio do Delegate removendo
+
+# Capitulo 18 - Validação do cartão cartunesco
+- Falta adicionar
+- Formulario
+ - Um botão
+ - Um Textarea feliz :)
+======
+- Criando cartão:
+    - Usuario preenche
+    - CLica no botao salvar
+
+    - Monitorar quando o usuário faz um submit no formulário
+    - Pegar o texto do usuário
+    - Validar o texto se tem algo
+    - usar o insertAdjacentElement para colocar o elemento na página
+
+# Capitulo 19 - Criando cartões parte 2: Agora é pra valer
+    - Criar o cartão dinamicamente
 
 
-
+# Capitulo 21 -  
+- cria o arquivo das ajudas
+- remove a classe no-js
+- joga a iife
 
 
 
