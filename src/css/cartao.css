@@ -91,7 +91,7 @@
 
 /* Códigos Novos *//* bem */
 
-.cartao:focus-within .opcoesDoCartao,
+/* .cartao:focus-within .opcoesDoCartao, */
 .cartao--focus-within .opcoesDoCartao,
 .cartao:hover .opcoesDoCartao {
 	/* display: block; */

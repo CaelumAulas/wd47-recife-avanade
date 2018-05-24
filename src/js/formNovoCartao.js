@@ -1,7 +1,7 @@
 ;(function() {
     // formNovoCartao
-    const form = document.querySelector('.formNovoCartao')
-    let contador = document.querySelectorAll('.cartao').length
+    const form = document.querySelector('.formNovoCartao');
+    let contador = document.querySelectorAll('.cartao').length;
     form.addEventListener('submit', function(event) {
         // Form da refresh por padrão
         // Tem que acaba com isso

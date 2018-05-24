@@ -99,6 +99,6 @@ function adicionaCartaoNoMural({ conteudo, cor }) { // Destructuring
     // precisa do texto
     // fazer esse cartão aparecer no mural
 }
-window.batata = adicionaCartaoNoMural
+window.adicionaCartaoNoMural = adicionaCartaoNoMural
 
 })()

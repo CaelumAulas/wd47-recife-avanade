@@ -1,0 +1,26 @@
+{
+  "name": "projeto-wd47-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel src --out-dir dist --copy-files --presets env --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaelumAulas/wd47-recife-avanade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaelumAulas/wd47-recife-avanade/issues"
+  },
+  "homepage": "https://github.com/CaelumAulas/wd47-recife-avanade#readme"
+}

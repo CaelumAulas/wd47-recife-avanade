@@ -131,9 +131,34 @@ for(arrayComAsFuncoesDoClickDoBotao) {
 - joga a iife
 
 
+# Capitulo 24 - 
+
+Onde roda o JS?
+No Browser (Le código JavaScript)
+Engine que lê JavaScript (V8)
 
 
+Ryan Dahl
+Scripts na maquina dele
+V8
 
+=====
+
+# Especificação: ECMA-262 Linguagem JavaScript
+- var, const, for, if, else, funkition,
+
+# Especificação do DOM: Browser
+- window, document, querySelector, getElementByID
+- juqueri é do Browser
+
+# Node é uma plataforma
+- Linguagem
+- Libuv
+
+
+# Capitulo 25 - 
+- Pegando as ajudas com AJAJ;
+- URL das ajudas: http://ceep.herokuapp.com/cartoes/instrucoes/
 
 
 
