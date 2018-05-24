@@ -1,17 +1,15 @@
-let contador = 0
-function adicionaCartaoNoMural(conteudo) {
-    contador++
-    // criar o cartão de forma Imperativa
-    // <article id="cartao_${contador}" class="cartao" tabindex="0">
-    // const cartao = document.createElement('article') // cria elementos
-    // cartao.classList.add('cartao')
-    // cartao.id = "cartao_${contador}"
-    // cartao.setAttribute('tabindex', '0')
+// IIFE
+;(function () {
     
-    // cartao precisa do html se baseando nos cartões existentes
-    // Declarativa :)
+    
+    
+let contador = 0
+
+function adicionaCartaoNoMural({ conteudo, cor }) { // Destructuring
+    contador++
+
     const cartao = $(`
-    <article id="cartao_${contador}" class="cartao" tabindex="0">
+    <article style="background-color: ${cor};" id="cartao_${contador}" class="cartao" tabindex="0">
         <div class="opcoesDoCartao">
             <button class="opcoesDoCartao-remove opcoesDoCartao-opcao" tabindex="0">
             <svg><use xlink:href="#iconeRemover"></use></svg>
@@ -101,3 +99,6 @@ function adicionaCartaoNoMural(conteudo) {
     // precisa do texto
     // fazer esse cartão aparecer no mural
 }
+window.batata = adicionaCartaoNoMural
+
+})()

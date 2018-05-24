@@ -28,8 +28,8 @@
             // Desabilitar o botão
         } else {
             // TIRA TODO O CÓDIGO DAQUI E JOGA NA FUNÇÃO DENTRO DO MURAL.JS
-            const conteudoDoNovoCartao = conteudo
-            adicionaCartaoNoMural(conteudoDoNovoCartao)
+            const conteudoDoNovoCartao = conteudo // TEXTO
+            adicionaCartaoNoMural({ conteudo: conteudoDoNovoCartao })
             // Quem for terminando faz funcionar por aqui tbm :)
         } // else acaba aqui :) 
 
